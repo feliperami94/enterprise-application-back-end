@@ -16,5 +16,6 @@ public class Product {
     private Integer productPrice;
     private Integer minQuantity;
     private Integer maxQuantity;
+    private String description;
     private String providerId;
 }
