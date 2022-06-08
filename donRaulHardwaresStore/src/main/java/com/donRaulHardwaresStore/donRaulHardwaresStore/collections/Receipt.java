@@ -8,16 +8,15 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
-@Document(collection = "bill")
+@Document(collection = "receipt")
 @Data
-public class Bill {
+public class Receipt {
     @Id
     private String id = UUID.randomUUID().toString();
-    private LocalDate date;
-    private String clientName;
-    private String sellerName;
-    private List<Product> productList;
-    private Double totalPaid;
+    private String providerName;
+    private List<String> productList;
+    private LocalDate receiptDate;
+    private String providerId;
 
 
 }
