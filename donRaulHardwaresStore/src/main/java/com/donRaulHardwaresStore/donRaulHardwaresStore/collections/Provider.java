@@ -13,5 +13,6 @@ public class Provider {
     private String providerId;
     private String providerName;
     private String providerPhone;
-    private String providerEmail;
+    private String providerPassport;
+    private Boolean availability;
 }

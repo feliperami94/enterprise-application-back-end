@@ -12,11 +12,9 @@ import java.util.UUID;
 @Data
 public class Receipt {
     @Id
-    private String id = UUID.randomUUID().toString();
+    private String receiptId;
     private String providerName;
     private List<String> productList;
     private LocalDate receiptDate;
     private String providerId;
-
-
 }

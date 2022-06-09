@@ -9,11 +9,11 @@ import java.util.UUID;
 
 @Data
 public class BillDTO {
-    private String id;
-    private LocalDate date;
+    private String billId;
+    private LocalDate billDate;
     private String clientName;
     private String sellerName;
-    private List<Product> productList;
+    private List<ProductDTO> productList;
     private Double totalPaid;
 
 }

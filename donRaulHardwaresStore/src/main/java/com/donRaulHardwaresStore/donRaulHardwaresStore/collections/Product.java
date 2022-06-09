@@ -10,12 +10,12 @@ import java.util.UUID;
 @Data
 public class Product {
     @Id
-    private String productId = UUID.randomUUID().toString();
+    private String productId;
     private String productName;
     private Integer productQuantity;
-    private Integer productPrice;
+    private Double productPrice;
     private Integer minQuantity;
     private Integer maxQuantity;
     private String description;
-    private String providerId;
+    private String providerID;
 }
