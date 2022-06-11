@@ -9,8 +9,8 @@ import java.util.UUID;
 @Data
 public class ReceiptDTO {
     private String receiptId;
-    private String providerName;
-    private List<String> productList;
-    private LocalDate receiptDate;
+    private String productQuantity;
+    private String receiptProductId;
+    private String receiptDate;
     private String providerId;
 }
