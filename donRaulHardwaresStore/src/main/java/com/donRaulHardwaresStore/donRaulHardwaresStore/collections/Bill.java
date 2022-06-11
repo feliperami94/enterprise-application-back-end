@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 @Document(collection = "bill")
@@ -13,10 +14,10 @@ import java.util.UUID;
 public class Bill {
     @Id
     private String billId;
-    private LocalDate date;
+    private String billDate;
     private String clientName;
     private String sellerName;
-    private List<Product> productList;
+    private Map<String, Integer> productList;
     private Double totalPaid;
 
 
