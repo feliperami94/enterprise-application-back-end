@@ -1,11 +1,8 @@
 package com.donRaulHardwaresStore.donRaulHardwaresStore.useCases;
 
 import com.donRaulHardwaresStore.donRaulHardwaresStore.dtos.BillDTO;
-import com.donRaulHardwaresStore.donRaulHardwaresStore.dtos.ReceiptDTO;
 import com.donRaulHardwaresStore.donRaulHardwaresStore.mappers.BillMapper;
-import com.donRaulHardwaresStore.donRaulHardwaresStore.mappers.ReceiptMapper;
 import com.donRaulHardwaresStore.donRaulHardwaresStore.repositories.IBillRepository;
-import com.donRaulHardwaresStore.donRaulHardwaresStore.repositories.IReceiptRepository;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
